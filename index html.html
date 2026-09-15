@@ -1,0 +1,318 @@
+
+<!DOCTYPE html>
+<html >
+   <head >
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Mays Portfolio</title>
+
+
+     <link rel="stylesheet" href="style.css">
+
+    </head>
+
+    <body>
+
+
+     <main>
+
+        <!-- Profile Section -->
+        <section id="profile" class="profile-section">
+
+            <div class="profile-content">
+
+                <div class="profile-text">
+
+                    
+                    <h1> Mays Alqisy</h1>
+                    <h2>Software Engineer & Writer </h2>
+                    <p>
+                        I'm interested in web development, writing,
+                        drawing, and creating interactive digital experiences.
+                    </p>
+                    <h3>skills:</h3>
+
+                    <div class="skills">
+                                    
+                        <span>HTML</span>
+                        <span>CSS</span>
+                        <span>JavaScript</span>
+                        <span>React</span>
+                    </div>
+
+                
+
+                    <div class="social-links">
+
+                        <a href="https://github.com/maysaalqysy-cloud" target="_blank">
+                            GitHub
+                        </a>
+
+                        <a href="https://www.instagram.com/mays_asad?stkn=YXhtd2dwM2w3MTFl" target="_blank">
+                            Instagram
+                        </a>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+        <nav class="navbar">
+
+    <a href="#" class="logo">Mays</a>
+
+     <ul class="nav-links">
+        <li><a href="#profile">Home</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+     </ul>
+
+     <button id="theme-toggle" class="theme-btn">
+        🌙 Dark Mode
+     </button>
+
+</nav>
+        <!-- Projects Section -->
+        <section id="projects" class="projects-section">
+
+            <div class="section-title">
+
+                <p>My Work</p>
+
+                <h2>Projects</h2>
+
+            </div>
+
+
+            <!-- Filter Buttons -->
+            <div class="filter-buttons">
+
+                <button class="filter-btn active" data-category="all">
+                    All
+                </button>
+
+                <button class="filter-btn" data-category="html-css">
+                    HTML/CSS
+                </button>
+
+                <button class="filter-btn" data-category="javascript">
+                    JavaScript
+                </button>
+
+            </div>
+
+
+            <!-- Projects -->
+            <div class="projects-container">
+
+                <!-- Project 1 -->
+                <article class="project-card"
+                         data-category="html-css">
+
+                    
+                    <div class="project-content">
+
+                        <span class="category">
+                            HTML/CSS
+                        </span>
+
+                        <h3>Restaurant Website</h3>
+
+                        <p>
+                            A responsive restaurant website with
+                            a modern layout and menu section.
+                        </p>
+
+                        <div class="tech-stack">
+
+                            <span>HTML</span>
+                            <span>CSS</span>
+                            <span>Flexbox</span>
+
+                        </div>
+
+                        <a href="#" class="project-btn">
+                            Live Demo
+                        </a>
+
+                    </div>
+
+                </article>
+
+
+                <!-- Project 2 -->
+                <article class="project-card"
+                         data-category="javascript">
+
+
+                    <div class="project-content">
+
+                        <span class="category">
+                            JavaScript
+                        </span>
+
+                        <h3>To-Do App</h3>
+
+                        <p>
+                            A simple task management application
+                            using JavaScript DOM manipulation.
+                        </p>
+
+                        <div class="tech-stack">
+
+                            <span>HTML</span>
+                            <span>CSS</span>
+                            <span>JavaScript</span>
+
+                        </div>
+
+                        <a href="#" class="project-btn">
+                            Live Demo
+                        </a>
+
+                    </div>
+
+                </article>
+
+
+                <!-- Project 3 -->
+                <article class="project-card"
+                         data-category="javascript">
+
+                   
+                    <div class="project-content">
+
+                        <span class="category">
+                            JavaScript
+                        </span>
+
+                        <h3>Weather App</h3>
+
+                        <p>
+                            A weather application that displays
+                            weather information in a simple interface.
+                        </p>
+
+                        <div class="tech-stack">
+
+                            <span>HTML</span>
+                            <span>CSS</span>
+                            <span>JavaScript</span>
+
+                        </div>
+
+                        <a href="#" class="project-btn">
+                            Live Demo
+                        </a>
+
+                    </div>
+
+                </article>
+
+            </div>
+
+        </section>
+
+
+        <!-- Contact Section -->
+        <section id="contact" class="contact-section">
+
+            <div class="section-title">
+
+                <p>Get In Touch</p>
+
+                <h2>Contact Me</h2>
+
+            </div>
+
+
+            <form id="contact-form" class="contact-form">
+
+                <div class="form-group">
+
+                    <label for="name">
+                        Name
+                    </label>
+
+                    <input
+                        type="text"
+                        id="name"
+                        name="name"
+                        placeholder="Enter your name"
+                    >
+
+                    <small id="name-error"></small>
+
+                </div>
+
+
+                <div class="form-group">
+
+                    <label for="email">
+                        Email
+                    </label>
+
+                    <input
+                        type="email"
+                        id="email"
+                        name="email"
+                        placeholder="Enter your email"
+                    >
+
+                    <small id="email-error"></small>
+
+                </div>
+
+
+                <div class="form-group">
+
+                    <label for="message">
+                        Message
+                    </label>
+
+                    <textarea
+                        id="message"
+                        name="message"
+                        rows="6"
+                        placeholder="Write your message..."
+                    ></textarea>
+
+                    <small id="message-error"></small>
+
+                </div>
+
+
+                <button type="submit" class="submit-btn">
+                    Send Message
+                </button>
+
+                <p id="form-success"></p>
+
+            </form>
+
+        </section>
+
+     </main>
+
+
+    <!-- Footer -->
+     <footer class="footer">
+
+        <p style="text-align: center;">
+            © 2026 Mays. All rights reserved.
+        </p>
+
+     </footer>
+
+
+     <script src="script.js"></script>
+    </body>
+</html>
+
